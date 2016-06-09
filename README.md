@@ -10,8 +10,22 @@ This project is inspired by
 
 30DaysofSwift (https://github.com/allenwong/30DaysofSwift)
 
+## Upgrade to RN@0.25
+
+ Branch RN@0.25 is under development for upgrading RN to v0.25. It solves the following deprecated features: 
+
+ 1. Requiring React API from react-native is now deprecated. (Error in v0.26)
+
+ 2. StatusBarIOS is deprecated. 
+
+ 3. SliderIOS is deprecated.
+
+Have some bugs on day4 and day 27. To be fixed.
+
+If you want to use the latest version of React Native. You should use the RN@0.25 branch. 
+
 ## Installation
-Require node.js , xcode & cocoapods
+Require node.js (v5.x), npm install -g react-native-cli , xcode & cocoapods
 
 \#1  `$ npm install`
 
@@ -19,9 +33,11 @@ IOS
 
 \#2  run ios/ThirtyDaysOfReactNative.xcworkspace
 
-Android
+Android (Since most of the plugins/libraries I used are compatible with IOS only. Majority of the days are not supported yet. PR welcomed. https://github.com/fangwei716/30-days-of-react-native/tree/android-v0.0.1)
 
 \#2  `$ react-native run-android`
+
+If error occurs during npm install, you can also download the node_modules folder directly from branch with_node_modules.
 
 ##ToDO
 
@@ -48,6 +64,11 @@ https://facebook.github.io/react-native/docs/running-on-device-ios.html#content
 Solution here:
 https://github.com/leecade/react-native-swiper/pull/113/commits/e681a8e5f347efbf10b445647321b1f0865e31a4
 
+##A Complete Example
+
+You can also check out a complete React Native Example of mine. 
+
+https://github.com/fangwei716/gene-task-runner
 
 ## Day 1
 An IOS-system-like stop watch.
